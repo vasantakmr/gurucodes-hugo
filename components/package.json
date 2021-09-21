@@ -2,9 +2,9 @@
   "name": "components",
   "version": "0.0.0",
   "scripts": {
-    "ng": "npm install @angular/cli && npm install @angular/compiler-cli && ng",
+    "ng": "npx @angular/cli",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing none && node build.js",
+    "build": "npx @angular/cli build --prod --output-hashing none && node build.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
