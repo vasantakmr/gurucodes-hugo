@@ -2,7 +2,7 @@
   "name": "components",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "npm install @angular/cli && npm install @angular/compiler-cli && ng",
     "start": "ng serve",
     "build": "ng build --prod --output-hashing none && node build.js",
     "test": "ng test",
