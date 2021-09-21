@@ -14,7 +14,7 @@
     "build:design": "webpack",
     "build:hugo": "cd hugo && hugo",
     "build:components": "cd components && npm run build",
-    "build": "NODE_ENV=development npm run build:design && NODE_ENV=development npm run build:components && npm run build:hugo",
+    "build": "rm -rf public && rm -rf functions && NODE_ENV=development npm run build:design && NODE_ENV=development npm run build:components && npm run build:hugo",
     "algolia": "atomic-algolia",
     "deploy": "firebase deploy --debug --token 1//0gZ2aZgcrH_IlCgYIARAAGBASNwF-L9IrPuhWQZPotCU9ch6x2kEO0ubrhdYkCXFZOLFbfE_zrCzhRLP06pF22qPlbbONJFfPpw8 --only hosting",
     "link-upstream": "git remote add upstream https://github.com/fireship-io/fireship.io",
