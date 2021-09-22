@@ -9,7 +9,7 @@ hide_feed: true
 
 <allow-if level="pro">
     Redeem your sticker by filling out the form below!
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe18TfAoxvdrSiT8TcwWNxDW_kQULkZeRRmUtDgoSBWKdYR7A/viewform?embedded=true" width="640" height="1663" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe18TfAoxvdrSiT8TcwWNxDW_kQULkZeRRmUtDgoSBWKdYR7A/viewform?embedded=true" width="640" height="1663" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 </allow-if>
 
 
