@@ -11,7 +11,7 @@ import {
   sendPasswordResetEmail,
 } from 'firebase/auth';
 import { getAnalytics, logEvent, setUserId, setUserProperties } from 'firebase/analytics';
-import { getFirestore, doc } from 'firebase/firestore';
+import { getFirestore, doc, setDoc  } from 'firebase/firestore';
 
 import { user } from 'rxfire/auth';
 import { tap, switchMap } from 'rxjs/operators';
@@ -77,7 +77,7 @@ export class AuthService {
 
   signOut() {
     signOut(this.auth);
-    location.replace('https://fireship.io');
+    location.replace('https://gurucodes.netlify.app');
     this.ns.setNotification(onLogout);
     logEvent(this.analytics, 'logout', {});
   }
@@ -114,7 +114,12 @@ export class AuthService {
   async loginHandler(promise) {
     let res, serverError;
     try {
-      res = await promise;
+      res = await promise; 
+
+      const ref = await doc(this.firestore, 'users', this.user.uid);
+      const { uid, displayName, photoURL, email } = this.user;
+      await setDoc(ref, { uid, displayName, photoURL, email, joined: Date.now() }, { merge: true });
+
       this.ns.setNotification(onLogin);
       logEvent(this.analytics, 'login', {});
     } catch (err) {
