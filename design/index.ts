@@ -49,7 +49,7 @@ declare function gtag(command: 'config' | 'set' | 'event', id: string, config?: 
           if (isSmall()) {
             topNav.style.top = '-2.5em';
           } else {
-            topNav.style.top = '-3em';
+            topNav.style.top = '-2.5em';
           }
 
           logo.style.opacity = '0.5';
