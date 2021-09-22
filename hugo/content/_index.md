@@ -1,4 +1,4 @@
 ---
-title: Fireship.io
+title: GuruCodes.io
 description: Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More
 ---
