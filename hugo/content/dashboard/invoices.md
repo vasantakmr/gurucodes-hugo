@@ -10,7 +10,7 @@ hide_qna: true
   📜 If you purchased via PayPal, you can access your invoice from your PayPal account.
 </div>
 
-<user-charges></user-charges>
+<!-- <user-charges></user-charges> -->
 
 <a href="/dashboard" class="btn">👈 Back</a>
 
