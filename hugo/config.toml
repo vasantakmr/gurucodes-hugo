@@ -1,4 +1,4 @@
-baseURL = "https://gurucodes-67a76.web.app/"
+baseURL = "https://gurucodes.netlify.app/"
 languageCode = "en-us"
 title = "GuruCodes.io"
 ignoreErrors = ["error-remote-getjson"]

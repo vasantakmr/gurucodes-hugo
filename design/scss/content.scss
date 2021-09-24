@@ -151,6 +151,7 @@
 
 .box-bookmark {
   background: var(--tag-bg);
+  border-radius: 8px;
 }
 
 .notification {
@@ -439,6 +440,7 @@ video-player,
   &:hover {
     transform: scale(1.02);
     background: var(--tag-bg);
+    border-radius: 8px;
   }
 
   .video-labels {

@@ -2,7 +2,7 @@
 title: Node.js Quickstart
 lastmod: 2020-05-20T04:58:32-07:00
 publishdate: 2020-05-20T04:58:32-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Learn the basics of Node.js in 7 easy steps
 tags: 
@@ -20,7 +20,7 @@ chapter_start: Backend
 
 ## Step 1 - What is Node?
 
-Node is a runtime that allows you to run JavaScript on the server. Learn more in the [how JavaScript works](https://fireship.io/courses/javascript/intro-how-js-works/) section of this course. 
+Node is a runtime that allows you to run JavaScript on the server. Learn more in the [how JavaScript works](https://gurucodes.io/courses/javascript/intro-how-js-works/) section of this course. 
 
 ## Step 2 - Install Node
 

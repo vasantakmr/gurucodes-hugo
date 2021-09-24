@@ -8,7 +8,7 @@ By accessing this web site, you are agreeing to be bound by these web site Terms
 
 ### Content Copyright Policy
 
-The site design, logo, video content subject to copyright © 2019-present | Fireship LLC
+The site design, logo, video content subject to copyright © 2019-present | gurucodes LLC
 
 User contributions licensed under cc by-sa 3.0 with attribution required. 
 
@@ -22,17 +22,17 @@ Lapsed Payment: If payment for a subscription fails, the user account will be do
 
 ### Disclaimer
 
-The materials on the fireship.io web site are provided “as is”. Fireship.io makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further,fireship.io does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
+The materials on the gurucodes.io web site are provided “as is”. gurucodes.io makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further,gurucodes.io does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
 
 ### Limitations
 
-In no event shall fireship.io liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on the fireship.io Internet site, even if fireship.io or a fireship.io authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+In no event shall gurucodes.io liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on the gurucodes.io Internet site, even if gurucodes.io or a gurucodes.io authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
 
 ### Intellectual Property Rights
 
-Fireship.io is committed to protecting intellectual property rights. fireship.io strictly follows DMCA guidelines for unauthorized use of copyrighted material. Any inquires regarding the reproduction of content on this site must be directed to the party holding the proprietary rights to the specified content.You shall not distribute, publish, transmit, modify, display or create derivative works from material obtained with this service.
-To file a notice of copyright infringement with fireship.io, you will need to provide a written communication that follows the guidelines set in Section 512(c)(3) of the Digital Millennium Copyright Act (the “DMCA”).
+gurucodes.io is committed to protecting intellectual property rights. gurucodes.io strictly follows DMCA guidelines for unauthorized use of copyrighted material. Any inquires regarding the reproduction of content on this site must be directed to the party holding the proprietary rights to the specified content.You shall not distribute, publish, transmit, modify, display or create derivative works from material obtained with this service.
+To file a notice of copyright infringement with gurucodes.io, you will need to provide a written communication that follows the guidelines set in Section 512(c)(3) of the Digital Millennium Copyright Act (the “DMCA”).
 
 ### Governing Law
 
-Any claim relating to the Fireship.io web site shall be governed by the laws of the State of Arizona without regard to its conflict of law provisions. General Terms and Conditions applicable to Use of a Web Site.
+Any claim relating to the gurucodes.io web site shall be governed by the laws of the State of Arizona without regard to its conflict of law provisions. General Terms and Conditions applicable to Use of a Web Site.

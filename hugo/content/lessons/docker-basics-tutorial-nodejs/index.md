@@ -2,7 +2,7 @@
 title: Docker Basics Tutorial with Node.js
 lastmod: 2020-08-24T08:08:56-07:00
 publishdate: 2020-08-24T08:08:56-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Learn the fundamentals of Docker by containerizing a Node.js app
 tags: 
@@ -10,7 +10,7 @@ tags:
     - node
 
 youtube: gAkwW2tuIqE
-github: https://github.com/fireship-io/docker-nodejs-basic-demo
+github: https://github.com/gurucodes-io/docker-nodejs-basic-demo
 # disable_toc: true
 # disable_qna: true
 
@@ -79,7 +79,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 
 {{< file "terminal" "command line" >}}
 ```bash
-docker build -t fireship/demoapp:1.0 .
+docker build -t gurucodes/demoapp:1.0 .
 ```
 
 ### Run the Container

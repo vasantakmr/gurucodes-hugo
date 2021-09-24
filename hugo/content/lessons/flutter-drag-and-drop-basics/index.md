@@ -2,14 +2,14 @@
 title: Flutter Drag and Drop Basics
 lastmod: 2019-04-30T11:45:14-07:00
 publishdate: 2019-04-30T11:45:14-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Learn how to create an interactive drag-and-drop UI in Flutter. 
 tags: 
     - flutter
 
 youtube: KOh6CkX-d6U
-github: https://github.com/fireship-io/183-flutter-draggable-game
+github: https://github.com/gurucodes-io/183-flutter-draggable-game
 # disable_toc: true
 # disable_qna: true
 

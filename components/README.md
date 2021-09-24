@@ -1,3 +1,3 @@
 # Angular Elements Component Library
 
-The interactive component library for Fireship.io
+The interactive component library for gurucodes.io

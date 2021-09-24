@@ -2,7 +2,7 @@
 title: Flutter Firebase Google SignIn + Firestore
 lastmod: 2019-01-14T07:43:54-07:00
 publishdate: 2019-01-14T07:43:54-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Learn how to Setup GoogleSign and Firestore with Flutter from Scratch
 tags: 
@@ -12,7 +12,7 @@ tags:
     - firestore
 
 youtube: cHFV6JPp-6A
-github: https://github.com/fireship-io/flutter-base
+github: https://github.com/gurucodes-io/flutter-base
 
 versions: 
   flutter: 1.0.0+1

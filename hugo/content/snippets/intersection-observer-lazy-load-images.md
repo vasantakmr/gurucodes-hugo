@@ -2,7 +2,7 @@
 title: Intersection Observer for Lazy-Loaded Images
 lastmod: 2019-01-25T05:48:23-07:00
 publishdate: 2019-01-25T05:48:23-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Use IntersectionObserver to lazy load images without listening to scroll events. 
 tags: 
@@ -26,7 +26,7 @@ youtube: aUjBvuUdkhg
 
 - [QuickLink](https://github.com/GoogleChromeLabs/quicklink) - Adds a preload tag to visible links on the page. 
 - [Vanilla Lazy Load](https://www.npmjs.com/package/vanilla-lazyload) - Lazy loaded images. 
-- Fireship.io - We use it to lazily load the comments at the bottom of the page. 
+- gurucodes.io - We use it to lazily load the comments at the bottom of the page. 
 
 {{< box icon="hazard" class="box-red" >}}
 Do not try to perform long-running or cpu intensive task in the observer's event handler. It runs on the main thread and may block other important tasks in the event loop. 

@@ -2,7 +2,7 @@
 title: How to Participate on Github
 lastmod: 2019-01-17T05:42:54-07:00
 publishdate: 2019-01-17T05:42:54-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: A step-by-step guide to submitting your first Pull Request on Github. Practical tips and advice for git version control. 
 tags: 
@@ -22,7 +22,7 @@ github: https://github.com/codediodeio/gimmie-sticker
 #     - "rxjs": 6.3
 ---
 
-Contributing to open-source is satisfying on many levels. Not only does it validate your skills for recruiters, but it leads to higher quality software that empowers developers to build better products. But submitting your first pull request on GitHub can be intimidating. The goal of this guide is to give you a clear set of steps for contributing any OS project (like fireship.io 🔥). 
+Contributing to open-source is satisfying on many levels. Not only does it validate your skills for recruiters, but it leads to higher quality software that empowers developers to build better products. But submitting your first pull request on GitHub can be intimidating. The goal of this guide is to give you a clear set of steps for contributing any OS project (like gurucodes.io 🔥). 
 
 This guide assumes that you have a [Github](https://github.com/) account and [git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine. 
 
@@ -87,6 +87,6 @@ Many larger projects have their own "Contributor Guidelines" and may require you
 
 ## Submit your First PR?
 
-Fireship.io is an open source project, which means you can submit a change for the very web page you are reading right now. If you are looking for some real-world practice, feel free to add a sentence, a typo fix, an emoji, or any other improvement to the pages on this site (see link in footer to go directly to the source file). 
+gurucodes.io is an open source project, which means you can submit a change for the very web page you are reading right now. If you are looking for some real-world practice, feel free to add a sentence, a typo fix, an emoji, or any other improvement to the pages on this site (see link in footer to go directly to the source file). 
 
 {{< figure src="/img/snippets/git-first-pr.png" alt="pull requests on a github repo" >}}

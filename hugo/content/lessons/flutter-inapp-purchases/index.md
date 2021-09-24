@@ -2,7 +2,7 @@
 title: In App Purchases in Flutter
 lastmod: 2019-06-25T06:14:51-07:00
 publishdate: 2019-06-25T06:14:51-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Accept In App Purchases and microtransactions in Flutter for digital products on the Apple App Store and Google Play Store.  
 tags: 
@@ -42,7 +42,7 @@ In App Purchases between Apple and Google are nearly identical, but you will fin
 The Play Store [Billing](https://developer.android.com/google/play/billing/billing_overview) API will not work until you have at least an Alpha release track. If you do not have an existing app, check off the items below before proceeding further. 
 
 
-✔️ Register your app and package ID (i.e com.fireship.myapp) in the [Google Play Console](https://developer.android.com/distribute/console).
+✔️ Register your app and package ID (i.e com.gurucodes.myapp) in the [Google Play Console](https://developer.android.com/distribute/console).
 
 ✔️ Follow the steps to create a [signed release APK](https://flutter.dev/docs/deployment/android). Or watch the [Android Flutter Deployment video](/courses/flutter-firebase/release-android/) 🎥. 
 
@@ -57,7 +57,7 @@ The Play Store [Billing](https://developer.android.com/google/play/billing/billi
 
 The setup for iOS is similar and requires an existing Apple developer account. 
 
-✔️ Release your app and package ID (i.e com.fireship.myapp) to [App Store Connect](https://appstoreconnect.apple.com/).
+✔️ Release your app and package ID (i.e com.gurucodes.myapp) to [App Store Connect](https://appstoreconnect.apple.com/).
 
 ✔️ Follow the steps to create an [iOS release](https://flutter.dev/docs/deployment/ios). Or watch the [iOS Flutter Deployment video](/courses/flutter-firebase/release-ios/) 🎥. 
 

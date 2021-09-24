@@ -2,7 +2,7 @@
 title: SendGrid Angular
 lastmod: 2019-07-05T10:43:06-07:00
 publishdate: 2019-07-05T10:43:06-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Send transactional email with SendGrid from Angular
 type: lessons
@@ -12,7 +12,7 @@ tags:
     - sendgrid
 
 vimeo: 346868823
-github: https://github.com/fireship-io/196-sendgrid-email-cloud-functions
+github: https://github.com/gurucodes-io/196-sendgrid-email-cloud-functions
 # youtube: 
 # code: 
 # disable_toc: true

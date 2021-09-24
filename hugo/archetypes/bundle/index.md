@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 lastmod: {{ .Date }}
 publishdate: {{ .Date }}
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: This post is about...
 tags: 

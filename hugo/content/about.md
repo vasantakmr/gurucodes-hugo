@@ -4,7 +4,7 @@ date: 2019-02-27T09:32:30-07:00
 draft: false
 ---
 
-Fireship.io exists to make developers happier and more productive. 
+gurucodes.io exists to make developers happier and more productive. 
 
 [Mission Statement and Manifesto](/mission/)
 
@@ -30,7 +30,7 @@ We provide support through various services in addition to content production.
 
 ### Who Are You?
 
-[Jeff Delaney](/contributors/jeff-delaney)
+[Vasanta Kumar](/contributors/vasanta-kumar)
 
 ### How did you build this Web App?
 

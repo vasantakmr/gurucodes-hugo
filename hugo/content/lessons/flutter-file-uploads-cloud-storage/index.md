@@ -2,7 +2,7 @@
 title: Flutter File Uploads
 lastmod: 2019-07-26T12:14:09-07:00
 publishdate: 2019-07-26T12:14:09-07:00
-author: Jeff Delaney
+author: Vasanta Kumar
 draft: false
 description: Capture an image in Flutter and upload the file to a Firebase Cloud Storage bucket. 
 tags:
@@ -12,7 +12,7 @@ tags:
     - android
 
 youtube: HCmAwk2fnZc
-github: https://github.com/fireship-io/199-flutter-firebase-storage-uploads
+github: https://github.com/gurucodes-io/199-flutter-firebase-storage-uploads
 # disable_toc: true
 # disable_qna: true
 
@@ -208,7 +208,7 @@ You can also obtain the current state of the upload with boolean `task.isComplet
 {{< highlight dart >}}
 class _UploaderState extends State<Uploader> {
   final FirebaseStorage _storage =
-      FirebaseStorage(storageBucket: 'gs://fireship-lessons.appspot.com');
+      FirebaseStorage(storageBucket: 'gs://gurucodes-lessons.appspot.com');
 
   StorageUploadTask _uploadTask;
 
