@@ -22,7 +22,6 @@ We provide support through various services in addition to content production.
 
 - Chat via Slack 
 - Open Source Code via Github
-- Video and Live Streams via YouTube
 
 <hr>
 
@@ -42,6 +41,5 @@ are handled by Firebase. The static HTML and content is managed with Hugo
 ### What Tools do you Use?
 
 - **Code** with VS Code. [Fira Code](https://github.com/tonsky/FiraCode) font and [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-- **Video Production** with Adobe Premiere. 
 - **Graphics** with Figma and AfterEffects.
 

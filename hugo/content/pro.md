@@ -51,7 +51,7 @@ I know jdj dsjjsd djsdjs dsjdjsd jdsjd  <span class="hi">just one favourite</spa
 <br />
 <br />
 
-<span class="hi">brilliant @vasantakmr</span>
+<span class="hi">@vasantakmr</span>
 
 {{< /testimonial >}}
 
@@ -68,7 +68,7 @@ I know jdj dsjjsd djsdjs dsjdjsd jdsjd  <span class="hi">just one favourite</spa
 
 </div>
 
-<h2 class="text-center home-heading">For Enterprise Too</h2>
+<!-- <h2 class="text-center home-heading">For Enterprise Too</h2>
 <h4 class="home-sub-heading text-center">Just a few big names we have worked with</h4>
 
 
@@ -94,4 +94,4 @@ I know jdj dsjjsd djsdjs dsjdjsd jdsjd  <span class="hi">just one favourite</spa
 
 <div class="flex-center">
 <img alt="Vasanta Kumar" src="/img/pages/gde.png">
-</div>
+</div> -->

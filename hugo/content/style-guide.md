@@ -8,7 +8,7 @@ description: Style Guide for Contributing Content to gurucodes.io
 ---
 
 This guide is for authors and developers who contribute content to gurucodes.io.
-
+<!-- 
 ## Things to Know
 
 Here are a few tips to keep in mind before working on this project:
@@ -96,4 +96,4 @@ I used to play baseball...
 ```
 
 
-
+ -->
