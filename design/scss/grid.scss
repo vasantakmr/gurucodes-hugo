@@ -21,6 +21,6 @@
 .row-max-3 {
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 500px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   justify-content: space-evenly;
 }

@@ -2,7 +2,7 @@
 title: Vasanta Kumar
 date: 2019-02-27T09:32:30-07:00
 draft: false
-featured_img: /img/contributors/vasanta-kumar.png
+featured_img: /img/contributors/vasanta-kumar.jpg
 
 links: 
     linkedin: https://www.linkedin.com/in/vasantakmr/

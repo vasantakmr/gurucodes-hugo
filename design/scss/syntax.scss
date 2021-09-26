@@ -11,6 +11,7 @@
   font-size: 0.9em;
   color: var(--text-color);
   box-shadow: var(--nav-shadow);
+  border-radius: 8px 8px 0px 0px;
 
   .file-icon {
     width: 24px;
@@ -31,7 +32,7 @@
 .highlight {
   overflow-x: auto;
   box-shadow: var(--card-shadow);
-
+  border-radius: 0px 8px 8px 8px;
   @include scrollbar;
 }
 

@@ -21,19 +21,54 @@ github: https://github.com/gurucodes-io/docker-nodejs-basic-demo
 #    rxdart: 0.20
 ---
 
-## Code Breakdown
+## Create your App
+
+### Node.js App
+
+Create a package.json file in your project folder.
+
+{{< file "js" "package.json" >}}
+```json
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+```
+
+Lets write a simple rest endpoint in express;
+
+{{< file "js" "index.js" >}}
+```javascript
+const app = require('express')();
+
+app.get('/', (req, res ) => 
+    res.json({ message: 'Docker is awesome 🐳' }) 
+);
+
+app.listen(8000, () => console.log(`Listening on 8000`) );
+```
 
 ### Dockerfile
 
-A Dockerfile is like DNA for building a Docker Image. 
+Create a file named Dockerfile in your project directory and write your configuration.
 
 {{< file "docker" "Dockerfile" >}}
 ```docker
-FROM node:12
+FROM node:14-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package.json ./
 
 RUN npm install
 
@@ -43,12 +78,14 @@ ENV PORT=8080
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+CMD [ "node", "index.js" ]
 ```
+We are using nodejs 14-alpine version. Visit [dockerhub](https://hub.docker.com/_/node) to see all available nodejs versions. 
 
-### Dockerignore
+### .dockerignore
 
-A Dockerignore file is required so we don't add the node_modules folder to the image.
+A Dockerignore file prevents files/folders from getting copied to the image. 
+We are here ignoring node_modules folder as it will be regenerated in the image.
 
 {{< file "docker" ".dockerignore" >}}
 ```docker
@@ -56,73 +93,41 @@ node_modules
 ```
 
 
-### Node.js App
-
-This is the code we went to run as the container's process.
-
-{{< file "js" "src/index.js" >}}
-```javascript
-const app = require('express')();
-
-app.get('/', (req, res ) => 
-    res.json({ message: 'Docker is easy 🐳' }) 
-);
-
-const port = process.env.PORT || 8080;
-
-app.listen(port, () => console.log(`app listening on http://localhost:${port}`) );
-```
-
 ## Commands
 
 ### Build the Image
 
+Change to project directory in terminal and execute the following command.
+This assigns a name to our image as gurucodes/dummy.
+
 {{< file "terminal" "command line" >}}
 ```bash
-docker build -t gurucodes/demoapp:1.0 .
+docker build -t gurucodes/dummy .
 ```
 
 ### Run the Container
 
-This maps the local port 5000 to the docker port 8080. You should be able to view the app on your local system at `https://localhost:5000`. You can choose any port you want. 
+This creates a container based on our image i.e., gurucodes/dummy and maps local port 5000 to docker container port 8000. Your app can be accessed in your local machine at `http://localhost:5000`.
 
 {{< file "terminal" "command line" >}}
 ```bash
-docker run -p 5000:8080 <image-id>
+docker run -p 5000:8000 gurucodes/dummy
 ```
 
+## Summary
 
-## Docker Compose
+### Commands Cheatsheet
 
-[Docker Compose](https://docs.docker.com/compose/) makes it easy to manage multiple containers and volumes. 
-
-{{< file "yaml" "docker-compose.yml" >}}
-```yaml
-version: '3'
-services:
-  web:
-    build: .
-    ports:
-      - "8080:8080"
-  db:
-    image: "mysql"
-    environment: 
-      MYSQL_ROOT_PASSWORD: password
-    volumes:
-      - db-data:/foo
-
-volumes:
-  db-data:
-```
-
-### Run multiple Containers
+Builds the image and assigns it a name and tag.
 
 {{< file "terminal" "command line" >}}
 ```bash
-docker-compose up
+docker build -t imageName:tag .
 ```
 
-## Docker in 100s
+Creates a container for the mentioned image_id/name and maps docker machine port to local machine port.
 
-<!-- {{< youtube Gjnup-PuquQ >}} -->
-
+{{< file "terminal" "command line" >}}
+```bash
+docker run -p localMachinePORT:dockerContainerPORT <image-id>
+```
