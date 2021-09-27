@@ -16,7 +16,7 @@ tags:
 
 The **Docker Course** will teach you how to build a complex applications with Docker, and Nodejs.
 
-You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wiki/BEST_PRODUCT) in MongoDB. 
+You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wiki/BEST_PRODUCT) using Docker. 
 
 <div>
 <a href="https://example.com" class="btn btn-orange">Example Live Demo</a>
@@ -29,7 +29,8 @@ You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wik
 - Virtual Machines vs Containers
 - Images and Containers
 - Quick Start: Docker
-- Data and VOlumes
+- Managing App Data
+- Data and Volumes
 - Networking in Multi-Container Environment
 - Docker Compose
 - Deploying Containers
