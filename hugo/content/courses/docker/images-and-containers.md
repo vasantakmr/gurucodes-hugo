@@ -9,6 +9,8 @@ free: true
 chapter_start: Learning Core Concepts
 ---
 
+Accoding to Docker "Containers are a standardized unit of software that allows developers to isolate their app from its environment, solving the “it works on my machine” headache."
+
 We run containers based on the images.
 
 We can run node image by running "docker run node:alpine" which will pull the node:alpine image from the docker hub. But to interact with that image we should type "docker run -it node:apline" running it again will create a new container rather that using the old container.
