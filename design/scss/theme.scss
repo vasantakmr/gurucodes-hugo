@@ -19,7 +19,7 @@ $colors: (
   --nav-shadow: 4px 0 10px -3px #010101;
   --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.38);
   --toc-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px;
-  --nav-bg: var(--gray5);
+  --nav-bg: var(--gray6);
   --tag-bg: var(--gray4);
   --code-bg: #22262f; // #1d2327;
   --card-bg: var(--gray5);
@@ -71,9 +71,9 @@ $colors: (
 
   --nav-width: 3.5em;
 
-  --font-body: 'sofia-pro', sans-serif;
-  --font-head: 'cubano', sans-serif; 
-  --font-code: 'attribute-mono', monospace;
+  --font-body: Segoe UI,system-ui,-apple-system,sans-serif;
+  --font-head: BasicSans Minimal, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-code: SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
   --font-size: 20px;
 
   --max-width-bp: 768px;
@@ -106,7 +106,7 @@ body {
 }
 
 main {
-  margin-top: var(--nav-width);
+  margin-top: 3em;
   padding: 1rem;
 }
 
@@ -127,7 +127,7 @@ h5,
 h6 {
   color: var(--h-color);
   font-family: var(--font-head);  
-  font-weight: normal;
+  font-weight: 600;
   
 }
 
@@ -210,7 +210,7 @@ blockquote {
 @media (max-width: 768px) {
   :root {
     --font-size: 15px;
-    --nav-width: 3em;
+    --nav-width: 2.5em;
   }
 
   main {

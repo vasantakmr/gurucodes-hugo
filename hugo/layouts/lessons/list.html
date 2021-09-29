@@ -1,6 +1,6 @@
 {{ define "main" }}
     <header>
-        <h1 class="border-bottom">Watch the Latest Lessons</h1>
+        <h1 class="border-bottom mw998">Watch the Latest Lessons</h1>
     </header>
 {{ end }}
 
@@ -9,7 +9,7 @@
 {{ $paginator := .Paginate (where .Pages "Type" "lessons") 24 }}
 
 
-    <div class="row-max-3">
+    <div class="row-max-3 mw998">
       {{ range $paginator.Pages  }}
 
                 <div class="card card-lesson">

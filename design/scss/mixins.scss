@@ -2,21 +2,25 @@
     /* width */
   &::-webkit-scrollbar {
     height: 6px;
-    width: 6px
+    width: 6px;
+    border-radius: 6px;
   }
   
   /* Track */
   &::-webkit-scrollbar-track {
+    border-radius: 6px;
     background: var(--background); 
   }
   
   /* Handle */
   &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
     background: var(--gray3); 
   }
   
   /* Handle on hover */
   &::-webkit-scrollbar-thumb:hover {
+    border-radius: 6px;
     background: var(--gray4); 
   }
 }

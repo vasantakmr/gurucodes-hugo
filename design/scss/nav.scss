@@ -112,13 +112,14 @@ a.item {
 
 .topnav-logo {
   min-width: 15vw;
+  margin-left: 7vw;
   color: purple;
 }
 
 .topnav-links {
   margin: 0 auto;
   font-family: var(--font-head);
-  font-weight: normal;
+  font-weight: 600;
   @media screen and (max-width: 768px) {
     width: 0;
   }
@@ -126,6 +127,7 @@ a.item {
 
 .topnav-icons {
   min-width: 15vw;
+  margin-right: 7vw;
   @media screen and (max-width: 768px) {
     svg {
       width: 1.5rem;
