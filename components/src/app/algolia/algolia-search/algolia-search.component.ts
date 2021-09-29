@@ -2,8 +2,8 @@ import { Component, ChangeDetectorRef, ElementRef, Input, HostListener, ViewChil
 import algolia from 'algoliasearch/lite';
 
 
-const APP_ID = '05VYZFXKNM';
-const API_KEY = 'a0837b31f4379765240c2753fa141aa2';
+const APP_ID = '26T7FBEETM';
+const API_KEY = '5de4b70d12964a5165b34eb4b8a12483';
 const client = algolia(APP_ID, API_KEY);
 
 @Component({
