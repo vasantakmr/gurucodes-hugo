@@ -5,7 +5,7 @@ draft: false
 description: Problems addressed by Docker.
 weight: 1
 emoji: 📜
-chapter_start: What is Docker, really?
+chapter_start: Dive Into Docker
 free: true
 ---
 
