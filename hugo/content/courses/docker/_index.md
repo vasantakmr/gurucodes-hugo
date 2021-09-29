@@ -16,17 +16,17 @@ tags:
 
 The **Docker Course** will teach you how to build a complex applications with Docker, and Nodejs.
 
-You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wiki/BEST_PRODUCT) using Docker. 
+<!-- You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wiki/BEST_PRODUCT) using Docker. 
 
 <div>
 <a href="https://example.com" class="btn btn-orange">Example Live Demo</a>
-</div>
+</div> -->
 
 
 ## 💡 What will I Learn?
 
-- Introduction: Why Docker Exists?
-- Virtual Machines vs Containers
+- Why Docker Exists?
+- What is DOcker?
 - Images and Containers
 - Quick Start: Docker
 - Managing App Data
@@ -40,14 +40,14 @@ You will build a full-stack [BEST PRODUCT (看板)](https://en.wikipedia.org/wik
 
 ### 🤔 Is this Course Right for Me?
 
-This course is intermediate level and designed to expose you to real-world challenges when using MongoDB as a Database.
+This course is intermediate level and designed to expose you to real-world challenges when building complex applications.
 
 ## Is this Course Updated?
 
-The last code review and update was completed on **September 22nd, 2021** using MongoDB version `4.4`. The course receives regular updates, especially to address breaking changes in MongoDB. 
+The last code review and update was completed on **September 22nd, 2021** using Docker version `1.20`. The course receives regular updates, especially to address breaking changes in Docker. 
 
 
-### 🏎️ Test Drive
+<!-- ### 🏎️ Test Drive
 
-Visit the [BEST EXAMPLE demo app](https://example.com/) and give it a test drive before you enroll. 
+Visit the [BEST EXAMPLE demo app](https://example.com/) and give it a test drive before you enroll.  -->
 

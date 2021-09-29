@@ -1,5 +1,5 @@
 ---
-title: "Introduction: Why Docker Exists?"
+title: "Why Docker Exists?"
 lastmod: 2019-04-16T09:12:30-08:00
 draft: false
 description: Problems addressed by Docker.
