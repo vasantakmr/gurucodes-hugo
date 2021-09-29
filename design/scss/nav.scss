@@ -6,14 +6,13 @@ $maxWidth: 70px;
 
 .topnav {
   position: fixed;
-  background: var(--nav-bg);
+  background: var(--navbar-bg);
   box-shadow: var(--nav-shadow);
   display: flex;
   flex-direction: row;
   width: 100%;
   z-index: 999;
   transition: top 0.3s ease;
-  border-bottom: var(--card-border);
   font-size: 1.2rem;
   height: var(--nav-width);
 

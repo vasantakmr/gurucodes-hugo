@@ -19,7 +19,8 @@ $colors: (
   --nav-shadow: 4px 0 10px -3px #010101;
   --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.38);
   --toc-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px;
-  --nav-bg: var(--gray6);
+  --navbar-bg: var(--gray6);
+  --nav-bg: var(--gray5);
   --tag-bg: var(--gray4);
   --code-bg: #22262f; // #1d2327;
   --card-bg: var(--gray5);
@@ -43,6 +44,7 @@ $colors: (
   --nav-shadow: 4px 0 10px -3px #c1c1c1;
   --card-shadow: 0 4px 8px rgba(0, 30, 84, 0.12);
   --toc-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px;
+  --navbar-bg: white;
   --nav-bg: white;
   --tag-bg: var(--gray2);
   --code-bg: white;
