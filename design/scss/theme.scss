@@ -37,7 +37,7 @@ $colors: (
 }
 
 .light-theme {
-  --background: var(--gray1);
+  --background: white;
   --background-opacity: #f8f8f895;
   --text-color: var(--gray4);
   --h-color: var(--gray6);
@@ -48,7 +48,7 @@ $colors: (
   --nav-bg: white;
   --tag-bg: var(--gray2);
   --code-bg: white;
-  --card-bg: white;
+  --card-bg: var(--gray7);
   --overlay-bg: rgba(255, 255, 255, 0.9);
   --h-border: 2px dashed var(--gray1);
   --nav-border: 2px dashed var(--text-color);
@@ -70,6 +70,7 @@ $colors: (
   --gray4: #454e56;
   --gray5: #2a2e35;
   --gray6: #12181b;
+  --gray7: #f0f0f0;
 
   --nav-width: 3.5em;
 
