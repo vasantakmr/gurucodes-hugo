@@ -13,7 +13,7 @@
   transform: translateY(0);
   transition: transform 300ms;
   border-radius: var(--card-radius);
-
+  border: 1px solid var(--card-bg);
   &:hover {
     background: var(--card-bg);
     transform: translateY(-3px);
